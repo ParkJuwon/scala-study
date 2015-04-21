@@ -17,7 +17,7 @@ package bobsrockets {
 
       // 스칼라는 사용자가 작성한 모든 패키지 외부에 존재하는 _root_ 패키지를 제공
       // 모든 최상위 패키지는 _root_ 패키지의 맴버로 취급한다
-      val booster3 = new  _root_.launch.Booster3
+//      val booster3 = new  _root_.launch.Booster3
     }
   }
   package launch {

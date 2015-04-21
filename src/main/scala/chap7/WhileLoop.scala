@@ -1,6 +1,7 @@
 package chap7
 
-import scala.io.StdIn
+//import scala.io.StdIn
+import io.Source.stdin
 
 /**
  * While 루프
@@ -23,14 +24,16 @@ object WhileLoop extends App{
   def doWhileExam () = {
     var line = ""
     do {
-      line = scala.io.StdIn.readLine()
+//      line = scala.io.StdIn.readLine()
+      line = readLine()
       println("Read : " + line)
     } while (line != "")
   }
 
   def whileReadLineExam() = {
     var line = ""
-    while ((line = StdIn.readLine()) != "") println("Read : " + line)
+//    while ((line = StdIn.readLine()) != "") println("Read : " + line)
+    while ((readLine()) != "") println("Read : " + line)
   }
 
   def gcd( x : Long, y : Long) : Long = if (y == 0) x else gcd(y, x % y)
