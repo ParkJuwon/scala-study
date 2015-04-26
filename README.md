@@ -80,3 +80,9 @@
   9. 패키지 객체
 * chap14
   1. 단언문의 사용
+  2. Suite를 확장해 테스트 메소드 작성하기
+  3. FunSuite로 테스트 함수 작성하기
+  4. Junit3Suite로 JUnit 테스트 작성하기
+  5. TestNGSuite 로 TestNG 테스트 작성하기
+  6. 명세를 테스트로 사용하기
+  7. ScalaCheck 로 프로퍼티 기반 테스트 작성하기

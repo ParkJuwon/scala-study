@@ -80,6 +80,7 @@ object Element {
                                 ) extends Element {
     private val line = ch.toString * width
 
+    if(width < 0 || height < 0) throw new IllegalArgumentException
     def contents = Array.fill(height)(line)
   }
 
