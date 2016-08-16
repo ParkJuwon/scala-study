@@ -17,7 +17,7 @@ onePlus(2)
 val twoPlus = curriedSum(2)_
 twoPlus(2)
 
-def curriedMinus(x : Int)(y : Int)= y - x
+def curriedMinus(x : Int)(y : Int)(z : Int)= y - x
 val oneM = curriedMinus(1)_
 oneM(2)
 
